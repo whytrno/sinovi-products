@@ -11,7 +11,7 @@ module.exports = {
         primary: "#03338D",
         secondary: "#4154F1",
         title: "#192A48",
-        paragraph: "#"
+        paragraph: "#444444"
       },
     },
     plugins: [],

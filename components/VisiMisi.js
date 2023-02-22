@@ -1,27 +1,19 @@
+import Card from "./VisiMisi/Card";
+
 export default function VisiMisi() {
     return (
-        <div className="py-20 px-10 space-y-10">
+        <div className="py-20 px-10 2xl:px-60 space-y-10">
             <div className="text-center space-y-3">
                 <h1 className="text-4xl text-title font-semibold">VISI MISI SENTRA INOVASI</h1>
-                <p className="text-paragraph">Untuk menjadi penggerak hilirisasi produk inovasi dalam menumbuhkan inovasi <br></br> berbasis teknologi digital di Indonesia</p>
+                <div className="flex justify-center">
+                    <p className="text-paragraph w-1/2 text-center text-lg">Untuk menjadi penggerak hilirisasi produk inovasi dalam menumbuhkan inovasi berbasis teknologi digital di Indonesia</p>
+                </div>
             </div>
             <div className="grid grid-cols-2 gap-10">
-                <div className="flex items-center shadow-lg p-7 gap-5 text-paragraph rounded-md">
-                    <img src="logo/visi1.png" className="h-24 w-24" />
-                    <p>Menyelenggarakan pendampingan bagi masyarakat dalam memanfaatkan teknologi digital untuk pengembangan bisnis.</p>
-                </div>
-                <div className="flex items-center shadow-lg px-5 py-2 gap-5 text-paragraph rounded-md">
-                    <img src="logo/visi2.png" className="h-24 w-24" />
-                    <p>Menyelenggarakan pendampingan bagi masyarakat dalam memanfaatkan teknologi digital untuk pengembangan bisnis.</p>
-                </div>
-                <div className="flex items-center shadow-lg px-5 py-2 gap-5 text-paragraph rounded-md">
-                    <img src="logo/visi3.png" className="h-24 w-24" />
-                    <p>Menyelenggarakan pendampingan bagi masyarakat dalam memanfaatkan teknologi digital untuk pengembangan bisnis.</p>
-                </div>
-                <div className="flex items-center shadow-lg px-5 py-2 gap-5 text-paragraph rounded-md">
-                    <img src="logo/visi4.png" className="h-24 w-24" />
-                    <p>Menyelenggarakan pendampingan bagi masyarakat dalam memanfaatkan teknologi digital untuk pengembangan bisnis.</p>
-                </div>
+                <Card logo="logo/visi1.png" desc="Menyelenggarakan pendampingan bagi masyarakat dalam memanfaatkan teknologi digital untuk pengembangan bisnis." />
+                <Card logo="logo/visi2.png" desc="Menumbuhkembangkan masyarakat yang mampu memanfaatkan teknologi digital dalam peningkatan kesejahteraan." />
+                <Card logo="logo/visi3.png" desc="Meningkatkan kerjasama lokal, nasional, maupun internasional dalam pengembangan bisnis berbasis teknologi digital. " />
+                <Card logo="logo/visi4.png" desc="Serta Menciptakan bisnis berbasis teknologi digital yang mandiri dan berdaya saing tinggi." />
             </div>
         </div>
     )
