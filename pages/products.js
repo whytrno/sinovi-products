@@ -15,11 +15,11 @@ export default function Products() {
                 <p className="text-md">Ingin melhat produk kami? Coba demonya sekarang juga!</p>
             </div>
 
-            <div className="grid grid-cols-2 gap-10">
-                <Product url="/" logo="pakbudi" title="PakBudi" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate eros ac ante suscipit consequat. Fusce ornare rhoncus purus ac pharetra. Fusce viverra eu nisi hendrerit elementum." />
-                <Product url="/" logo="ternaku" title="Ternaku" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate eros ac ante suscipit consequat. Fusce ornare rhoncus purus ac pharetra. Fusce viverra eu nisi hendrerit elementum." />
-                <Product url="/" logo="sobatwarung" title="Sobat Warung" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate eros ac ante suscipit consequat. Fusce ornare rhoncus purus ac pharetra. Fusce viverra eu nisi hendrerit elementum." />
-                <Product url="/" logo="calaun" title="Calaun" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate eros ac ante suscipit consequat. Fusce ornare rhoncus purus ac pharetra. Fusce viverra eu nisi hendrerit elementum." />
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
+                <Product url="https://pakbudi.id/" logo="pakbudi" title="PakBudi" description="Merupakan aplikasi konsultasi pendidikan pertama di Indonesia." />
+                <Product url="https://ternaku.id/" logo="ternaku" title="Ternaku" description="Platform investasi ternak yang menerapkan Internet Of Things (IoT) dalam proses monitoring perkembangan ternak." />
+                <Product url="https://sobatwarung.com/" logo="sobatwarung" title="Sobat Warung" description="Akselerasi UMKM pedesaan melalui adopsi teknologi marketplace ritel dalam penguatan bisnis badan usaha milik desa (BUMDesa) menuju ekonomi digital." />
+                <Product url="/" logo="calaun" title="Calaun" description="Merupakan aplikasi yang digunakan untuk mencari dan pemesanan jasa laundry terdekat yang dapat digunakan oleh customer dan juga mitra." />
             </div>
 
         </div>

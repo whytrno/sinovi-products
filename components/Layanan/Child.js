@@ -2,18 +2,18 @@ import List from "./List";
 
 function content(title, desc, lists) {
     return (
-        <div className="space-y-2 w-1/2">
+        <div className="space-y-2 sm:w-1/2">
             <h1 className="text-3xl text-primary font-semibold">{title}</h1>
             <p>{desc}</p>
-            {lists.map(list => (
-                <List title={list} />
+            {lists.map((list, index) => (
+                <List key={index} title={list} />
             ))}
         </div>
     )
 }
 function image(img) {
     return (
-        <div>
+        <div className="hidden sm:block">
             <img src={img} />
         </div>
     )
