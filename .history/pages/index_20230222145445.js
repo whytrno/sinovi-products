@@ -1,8 +1,6 @@
-import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Layanan from "@/components/Layanan";
 import Navbar from "@/components/Navbar";
-import Produk from "@/components/Produk";
 import VisiMisi from "@/components/VisiMisi";
 
 export default function Home() {
@@ -12,8 +10,6 @@ export default function Home() {
       <Hero />
       <VisiMisi />
       <Layanan />
-      {/* <Produk /> */}
-      <Footer />
     </div>
   )
 }

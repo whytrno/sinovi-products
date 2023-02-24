@@ -9,9 +9,13 @@ export default function Navbar() {
                 <img src="logo/sinovi.png" alt="Sinovi Logo" />
             </div>
             <div className="font-semibold text-primary gap-4 2xl:gap-8 flex items-center">
-                <Link href="/#visi-misi">Visi Misi</Link>
-                <Link href="/#layanan">Layanan</Link>
-                <Link href="/products">Daftar Produk</Link>
+                <Link href="/" className="text-secondary">Beranda</Link>
+                <Link href="/">Ternaku</Link>
+                <Link href="/">Calaun</Link>
+                <Link href="/">Sisterponik</Link>
+                <Link href="/">Sobat Warung</Link>
+                <Link href="/">Pak Budi</Link>
+                <Link href="/">Viregra</Link>
             </div>
         </div>
     )

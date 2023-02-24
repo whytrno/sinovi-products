@@ -3,7 +3,7 @@ import List from "./Layanan/List";
 
 export default function Layanan() {
     return (
-        <div id="layanan" className="py-20 px-20 2xl:px-60 space-y-10">
+        <div className="py-20 px-20 2xl:px-60 space-y-10">
             <div className="text-center space-y-3">
                 <h1 className="text-4xl text-title font-semibold">LAYANAN</h1>
                 <div className="flex justify-center">

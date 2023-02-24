@@ -1,4 +1,3 @@
-import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Layanan from "@/components/Layanan";
 import Navbar from "@/components/Navbar";
@@ -13,7 +12,6 @@ export default function Home() {
       <VisiMisi />
       <Layanan />
       {/* <Produk /> */}
-      <Footer />
     </div>
   )
 }
